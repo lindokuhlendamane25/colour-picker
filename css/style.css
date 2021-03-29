@@ -1,0 +1,68 @@
+body {
+  background: url(../images/space.jpg);
+  height: 100vh;
+}
+
+* {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+#main-container {
+  background-color: white;
+  max-width: 700px;
+}
+
+#reviews {
+  height: 50px;
+}
+
+#prices {
+  height: 50px;
+}
+
+.not-bold {
+  font-weight: normal
+}
+
+#color-circles div img {
+  width: 35px;
+  padding: 5px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.toggle-border {
+  border: 2px solid black;
+  border-radius: 25px;
+}
+
+div.badge {
+  padding: 10px 25px;
+  font-size: 16px;
+  
+}
+
+button.btn {
+  font-size: 12px;
+  font-weight: bold;
+  height: 40px;
+  margin: 0 15px
+}
+
+.modal-content {
+  outline: 1px solid black;
+  outline-offset: -5px;
+}
+
+.modal-body img{
+  width: 35px;
+  cursor: pointer;
+}
+
+.checkout {
+  display:none;
+}
