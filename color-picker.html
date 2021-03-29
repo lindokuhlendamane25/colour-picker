@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Phase 1 | Deleverable 2</title>
+</head>
+
+<body>
+  <div id="main-container" class="container px-3 py-3">
+    <h1 class="fw-bold">HICKIES Originals</h1>
+
+    <div id="reviews" class="row container">
+      <div class="col-4 col-sm-3 col-md-2 d-flex align-items-center p-0">
+        <img src="./images/star.png" alt="star" class="pe-1 py-0">
+        <img src="./images/star.png" alt="star" class="pe-1 py-0">
+        <img src="./images/star.png" alt="star" class="pe-1 py-0">
+        <img src="./images/star.png" alt="star" class="pe-1 py-0">
+        <img src="./images/star.png" alt="star" class="pe-1 py-0">
+      </div>
+      <p class="text-muted small col-6 col-sm-3 col-md-2 d-flex align-items-center p-0 m-0">1293 reviews</p>
+    </div>
+
+    <div id="prices" class="row">
+      <p id="special-price" class="text-danger col-4 col-sm-2 d-flex align-items-center fs-5"><strong>R 0</strong>
+      </p>
+      <p id="full-price" class="small text-muted col-4 col-sm-2 d-flex align-items-center">R 0</p>
+      <p id="cut-off" class="small text-muted col-4 col-sm-2 d-flex align-items-center">25% OFF</p>
+    </div>
+
+    <div id="online-exclusive" class="">
+      <p class="small not-bold">ONLINE EXCLUSIVE</p>
+    </div>
+
+    <div id="color-label">
+      <p class="small">COLOR: <span class="current-color not-bold"></span></p>
+    </div>
+
+    <!-- Color Circle Images -->
+    <div class="row" id="color-circles">
+      <div class="col-md-1 col-sm-1 col-2">
+        <img src="./images/maroon.png" class="color-image maroon" data-price="17.99"
+          onclick="targetColorCircles(event)">
+      </div>
+      <div class="col-md-1 col-sm-1 col-2">
+        <img src="./images/violet.png" class="color-image violet" data-price="21.99"
+          onclick="targetColorCircles(event)">
+      </div>
+      <div class="col-md-1 col-sm-1 col-2">
+        <img src="./images/black.png" class="color-image black" data-price="13.99" onclick="targetColorCircles(event)">
+      </div>
+      <div class="col-md-1 col-sm-1 col-2">
+        <img src="./images/white.png" class="color-image white" data-price="17.99" onclick="targetColorCircles(event)">
+      </div>
+      <div class="col-md-1 col-sm-1 col-2">
+        <img src="./images/orange.png" class="color-image orange" data-price="23.99"
+          onclick="targetColorCircles(event)">
+      </div>
+      <div class="col-md-1 col-sm-1 col-2">
+        <img src="./images/yellow.png" class="color-image yellow" data-price="9.99" onclick="targetColorCircles(event)">
+      </div>
+      <div class="col-md-1 col-sm-1 col-2">
+        <img src="./images/denim-blue.png" class="color-image denim-blue" data-price="18.99"
+          onclick="targetColorCircles(event)">
+      </div>
+      <div class="col-md-1 col-sm-1 col-2">
+        <img src="./images/bahama-blue.png" class="color-image bahama-blue" data-price="30.99"
+          onclick="targetColorCircles(event)">
+      </div>
+      <div class="col-md-1 col-sm-1 col-2">
+        <img src="./images/pancho.png" class="color-image pancho" data-price="13.99"
+          onclick="targetColorCircles(event)">
+      </div>
+      <div class="col-md-1 col-sm-1 col-2">
+        <img src="./images/malibu.png" class="color-image malibu" data-price="16.99"
+          onclick="targetColorCircles(event)">
+      </div>
+      <div class="col-md-1 col-sm-1 col-2">
+        <img src="./images/green-yellow.png" class="color-image green-yellow" data-price="19.99"
+          onclick="targetColorCircles(event)">
+      </div>
+      <div class="col-md-1 col-sm-1 col-2">
+        <img src="./images/persian-rose.png" class="color-image persian-rose" data-price="34.99"
+          onclick="targetColorCircles(event)">
+      </div>
+      <div class="col-md-1 col-sm-1 col-2">
+        <img src="./images/fawn.png" class="color-image fawn" data-price="6.99" onclick="targetColorCircles(event)">
+      </div>
+      <div class="col-md-1 col-sm-1 col-2">
+        <img src="./images/eucalyptus.png" class="color-image eucalyptus" data-price="45.99"
+          onclick="targetColorCircles(event)">
+      </div>
+      <div class="col-md-1 col-sm-1 col-2">
+        <img src="./images/scarpa-flow.png" class="color-image scarpa-flow" data-price="38.99"
+          onclick="targetColorCircles(event)">
+      </div>
+      <div class="col-md-1 col-sm-1 col-2">
+        <img src="./images/horses-neck.png" class="color-image horses-neck" data-price="20.99"
+          onclick="targetColorCircles(event)">
+      </div>
+      <div class="col-md-1 col-sm-1 col-2">
+        <img src="./images/downy.png" class="color-image downy" data-price="19.99" onclick="targetColorCircles(event)">
+      </div>
+      <div class="col-md-1 col-sm-1 col-2">
+        <img src="./images/silver.png" class="color-image silver" data-price="31.99"
+          onclick="targetColorCircles(event)">
+      </div>
+    </div>
+
+    <div class="">
+      <p id="size-guide" class="small">Size Guide</p>
+      <p id="your-custom-fit" class="small">Your Custom Fit</p>
+    </div>
+
+
+    <div id="cart" class="d-flex align-items-center">
+      <div class="badge rounded-pill bg-light text-dark border border-dark col-3 col-sm-1">0</div>
+      <button class="add-to-cart btn text-light bg-dark rounded-pill col-8 col-sm-6" data-bs-toggle="modal"
+        data-bs-target="#quantity-modal" disabled>Add To Cart</button>
+      <button class="checkout btn text-light bg-dark rounded-pill col-8 col-sm-6" data-bs-toggle="modal"
+        data-bs-target="#summary-modal">Checkout Now</button>
+    </div>
+
+
+    <!-- Quantity Modal -->
+    <div class="modal fade" id="quantity-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content rounded-0 p-1">
+          <div class="modal-header border-0 d-flex justify-content-center">
+            <p class="modal-title small text-center" id="exampleModalLabel">Please add the quantity of the items you
+              have selected</p>
+          </div>
+          <div class="modal-body d-flex align-items-center justify-content-center">
+            <span class="current-color small"></span>
+            <img src="./images/minus.png" alt="decrement" class="decrement mx-4">
+            <span class="modal-quantity fs-2">0</span>
+            <img src="./images/plus.png" alt="increment" class="increment mx-4">
+          </div>
+          <div class="modal-footer border-0">
+            <button type="button" class="agree-button btn btn-primary px-2 col-3" data-bs-dismiss="modal">Agree</button>
+            <button type="button" class="btn btn-danger px-2 col-3" data-bs-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Summary Modal -->
+    <div class="modal fade" id="summary-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Item Prev</th>
+                  <th scope="col">Quantity</th>
+                  <th scope="col">Price</th>
+                </tr>
+              </thead>
+              <tbody class="not-bold"></tbody>
+              <thead>
+                <tr>
+                  <th class="border-0" colspan="2">Total Price</th>
+                  <th class="border-0 grand-total">R500</th>
+                </tr>
+              </thead>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark col-3" data-bs-dismiss="modal">Go Back</button>
+            <button type="button" class="btn btn-success final-checkout col-3">Final Checkout</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Need Help Modal -->
+    <div class="modal fade" id="need-help-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Need Help</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div>
+              <h5 class="fw-normal">What is Hickies Colors</h5>
+              <p class="fw-normal">
+                Hickies Colors is an online shopping store for different color circles with different price ranges and depending of the 
+                excliveness of the color
+              </p>
+            </div>
+
+            <hr>
+
+            <div>
+              <h5 class="fw-normal">Color Circles</h5>
+              <p class="fw-normal">Color circles are the product which you can purchase, each color circle has a unique price.
+                To add a color into the cart, you need to click on the color and then select the quantity you want.
+              </p>
+            </div>
+
+            <hr>
+
+            <div>
+              <h5 class="fw-normal">Quantity</h5>
+              <p class="fw-normal fs-6">You can select however much quantity you want for the circle you wish to purchase. To do so,
+                after selecting the color you want, the click on the ADD TO CART, the will be a pop up with a plus and minus sign.
+                Click on the + sing to add the to the quantity or the - sign to subtract from the quantity.
+              </p>
+            </div>
+
+            <hr>
+
+            <div>
+              <h5 class="fw-normal">Checkout</h5>
+              <p class="fw-normal">The checkout button will apear after you have selected the color circle and quantity you want.
+                When you click the checkout button, you will be presented with a pop up that has a summary of the circles you added to the cart.
+                From that you can either GO BACK to continue shopping, or you can click final checkout to complete your purchase.
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary col-3" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div id="details" class="">
+      <p class="small">DETAILS</p>
+      <div id="color-circles" class="details row">
+
+      </div>
+    </div>
+
+    <hr>
+
+    <ul class="list-unstyled">
+      <li class="py-1 small"><a class="link-dark" href="#" data-bs-toggle="modal" data-bs-target="#need-help-modal">Need
+          Help</a></li>
+      <li class="py-1 small"><a class="link-dark" href=" #">Shipping & Returns</a></li>
+    </ul>
+
+
+  </div>
+
+  
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+  </script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
